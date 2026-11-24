@@ -9,7 +9,7 @@ private:
     string name;
     map<string,int> neighbors;
 public:
-    Router(string routerName);
+    Router(string routerName="");
     void addNeighbor(string neighborName, int cost);
     void eraseNeighbor(string neighborName);
     string getName();
